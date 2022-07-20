@@ -1,0 +1,31 @@
+.cartContainer{
+    display: flex;
+    width: 23%;
+    height: 65%;
+    background-color: green;
+    position: relative;
+}
+
+img{
+    height: 100%;
+    position: absolute;
+}
+
+.circle{
+    position: absolute;
+    z-index: 1;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    left: 27px;
+    top: -5px;
+}
+
+p{
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+}

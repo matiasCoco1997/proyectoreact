@@ -1,0 +1,22 @@
+.principal-content{
+  width: 70%;
+  margin: auto;
+  height: 900px;
+}
+
+h2{
+  text-align: center;
+  padding: 20px;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.listOfProducts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 800px;
+    padding: 10px;
+  }
