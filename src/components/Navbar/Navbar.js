@@ -8,12 +8,12 @@ const Navbar = () => {
     return (
 
         <nav>
-            <h1>nombre de la empresa</h1>
+            <img className="icon-brand" src="./images/brand.png" alt="Logo Natura"/>
 
             <div className="container-btns">
-                <button className="nav-btn">boton 1</button>
-                <button className="nav-btn">boton 2</button>
-                <button className="nav-btn">boton 3</button>
+                <button className="nav-btn">Perfumes</button>
+                <button className="nav-btn">Cremas</button>
+                <button className="nav-btn">Labiales</button>
                 <Cartwidget></Cartwidget>
             </div>
 

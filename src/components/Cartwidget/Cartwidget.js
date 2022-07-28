@@ -26,7 +26,7 @@ const Cartwidget = () => {
 
         <div className="cartContainer">
 
-            <img src="./images/cart.png" alt="CartWidget"/>
+            <img className="cart-nav" src="./images/cart.png" alt="CartWidget"/>
 
             <div className="circle">
                 <p>10</p>

@@ -3,20 +3,31 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: green;
-    padding: 5px;
+    padding: 10px;
     padding-left: 50px;
+    border-bottom: 3px solid #f36b24;
 }
 
 .container-btns{
     width: 600px;
     height: 60px;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .nav-btn{
     width: 23%;
     height: 65%;
+    margin-left: 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f36b24;
+}
+
+.icon-brand{
+    width: 90px;
 }

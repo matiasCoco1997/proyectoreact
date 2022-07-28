@@ -1,12 +1,13 @@
 .cartContainer{
     display: flex;
-    width: 23%;
+    width: 8%;
     height: 65%;
-    background-color: green;
     position: relative;
+    margin-left: 20px;
+    margin-right: 40px;
 }
 
-img{
+.cart-nav{
     height: 100%;
     position: absolute;
 }
@@ -14,14 +15,14 @@ img{
 .circle{
     position: absolute;
     z-index: 1;
-    background-color: red;
+    background-color: #f36b24;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
     left: 27px;
-    top: -5px;
+    top: -4px;
 }
 
 p{

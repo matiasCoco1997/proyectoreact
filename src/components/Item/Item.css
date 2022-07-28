@@ -1,0 +1,108 @@
+.itemContainer{
+    display: grid;
+    grid-template-areas:    "img img img img"
+                            "title title title title"
+                            "price price price price"
+                            "stock stock stock stock"
+                            "count  count count count"
+                            "confirmBtn confirmBtn confirmBtn confirmBtn";
+    grid-template-columns: 0.5fr 0.5fr 0.5fr  1fr;
+    grid-template-rows: 60% 7% 5% 5% 10%;
+    width: 30%;
+    height: 30%;
+    border: 5px solid #f36b24;
+    border-radius: 10px;
+}
+ 
+.imgProduct{
+    grid-area: img;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    border-bottom: #f36b24 solid 3px;
+}
+
+
+
+.titleOfProduct{
+    width: 100%;
+    text-align: center;
+    grid-area: title;
+    color: black;
+    align-self: center;
+    font-size: 18px;
+}
+
+.priceOfProduct{
+    width: 100%;
+    text-align: center;
+    grid-area: price;
+    color: black;
+    align-self: center;
+    font-size: 18px;
+}
+
+
+button img{
+    height: 100%;
+}
+
+.stock{
+    grid-area: stock;
+    color: black;
+    text-align: center;
+    align-self: center;
+}
+
+.count-container{
+    grid-area: count;
+    justify-self: center;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count{
+    color: black;
+    font-weight: bold;
+    width: 40%;
+    height: 70%;
+    text-align: center;
+    line-height: 170%;
+}
+
+.add-btn{
+    background-color: #f36b24;
+    grid-area: confirmBtn;
+    border: none;
+    height: 70%;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.takeOff-btn{
+    background-color: #f36b24;
+    border: none;
+    height: 70%;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 7px;
+}
+
+
+.addToCart{
+    width: 80%;
+    margin: auto;
+    height: 80%;
+    border: none;
+    cursor: pointer;
+    background-color: #f36b24;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    grid-area: confirmBtn;
+}
+
