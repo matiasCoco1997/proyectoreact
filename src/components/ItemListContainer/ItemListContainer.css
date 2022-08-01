@@ -1,7 +1,7 @@
 .principal-content{
-  width: 80%;
+  width: 75%;
   margin: auto;
-  height: 1500px;
+  height: auto;
 }
 
 h2{
@@ -12,13 +12,3 @@ h2{
   color: #f36b24;
 }
 
-.listOfProducts{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: auto;
-    width: 90%;
-    height: 100%;
-    padding: 10px;
-  }

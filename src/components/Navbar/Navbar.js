@@ -1,19 +1,21 @@
 import Cartwidget from '../Cartwidget/Cartwidget'
 import './Navbar.css'
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
-
-    
 
     return (
 
         <nav>
-            <img className="icon-brand" src="./images/brand.png" alt="Logo Natura"/>
+            {/* <Link className="icon-brand"> */}
+                <img className="icon-brand" src="./images/brand.png" alt="Logo Natura"/>
+            {/* </Link> */}
+            
 
             <div className="container-btns">
-                <button className="nav-btn">Perfumes</button>
-                <button className="nav-btn">Cremas</button>
-                <button className="nav-btn">Labiales</button>
+                <Link to='/category/perfume' className="nav-btn">Perfumes</Link>
+                <Link to='/category/crema' className="nav-btn">Cremas</Link>
+                <Link to='/category/combo' className="nav-btn">Combos</Link>
                 <Cartwidget></Cartwidget>
             </div>
 

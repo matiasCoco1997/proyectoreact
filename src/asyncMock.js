@@ -52,7 +52,7 @@ const products = [
         id: '5',
         name:'Crema hidratante facial faces',
         price: 1280,
-        category:'shampoo',
+        category:'crema',
         image:'./images/cremas/cremaHidratanteFacialFaces.jpeg',
         alt:'Crema Hidratante Facial Faces',
         stock: 10,
@@ -76,7 +76,7 @@ const products = [
         id: '7',
         name:'Combo body cereza y avellana',
         price: 2260,
-        category:'Combo',
+        category:'combo',
         image:'./images/combos/comboBodyCerezaYAvellana.jpeg',
         alt:'Combo Body Cereza y Avellana',
         stock: 10,
@@ -88,7 +88,7 @@ const products = [
         id: '8',
         name:'Combo flor de lis',
         price: 2260,
-        category:'Combo',
+        category:'combo',
         image:'./images/combos/comboBodyFlorDeLis.jpeg',
         alt:'Combo flor de lis',
         stock: 10,
@@ -100,7 +100,7 @@ const products = [
         id: '9',
         name:'Combo body datiles y canela',
         price: 2260,
-        category:'Combo',
+        category:'combo',
         image:'./images/combos/ComboBodyDatilesYCanela.jpeg',
         alt:'Combo body datiles y canela',
         stock: 10,
@@ -117,6 +117,28 @@ export const getProducts = () => {
         setTimeout(()=> {
 
             resolve(products)
-        }, 2000)
+        }, 500)
+    })
+}
+
+
+export const getProductsByCategory = (category) => {
+
+    return new Promise ((resolve) => {
+        
+        setTimeout(()=> {
+            resolve(products.filter(prod => prod.category === category))
+        }, 500)
+    })
+}
+
+
+export const getProductById = (id) => {
+
+    return new Promise ((resolve) => {
+
+        setTimeout(()=> {
+            resolve(products.find(prod => prod.id === id))
+        }, 500)
     })
 }

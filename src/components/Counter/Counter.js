@@ -1,3 +1,4 @@
+import './Counter.css'
 import {useState, useEffect} from 'react'
 const Counter = ({stock, onAdd})=>{
 
@@ -25,21 +26,27 @@ const Counter = ({stock, onAdd})=>{
     return (
 
         <>
-            <div className='count-container'>
-
-                    <button onClick ={decrement} className="takeOff-btn">
-                        <img src='./images/less.png' alt='takeOffArrow'/>
-                    </button>
-
-                    <h3 className='count'>{count}</h3>  
-
-                    <button onClick ={increment} className="add-btn">
-                        <img src='./images/add.png' alt='add button'/>
-                    </button>
-    
+            
+            <div className='lessZone'>
+                <button onClick ={decrement} className="takeOff-btn">
+                    <img src='./images/less.png' alt='takeOffArrow'/>
+                </button> 
             </div>
 
-            <button onClick = {() => onAdd (count)} className="addToCart">Agregar al carrito</button>
+            <div className='countZone'>
+                <h3 className='count'>{count}</h3>  
+            </div>
+            
+            <div className='addZone'>
+                <button onClick ={increment} className="add-btn">
+                    <img src='./images/add.png' alt='add button'/>
+                </button>
+            </div>
+            
+            <div className='addToCartZone'>
+                <button onClick = {() => onAdd (count)} className="addToCart">Agregar al carrito</button>
+            </div>
+            
         </>
     )
 

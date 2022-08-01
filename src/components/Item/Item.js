@@ -1,5 +1,6 @@
 import Counter from '../Counter/Counter'
 import './Item.css'
+import { Link } from 'react-router-dom'
 
 
 const Item = ({product}) => {
@@ -11,16 +12,33 @@ const Item = ({product}) => {
     return (
 
         <li className="itemContainer" key= {product.id}>
+            
+            <div className='imgZone'>
+                <img className="imgProduct" src={product.image} alt={product.alt}></img>
+            </div>
 
-            <img className="imgProduct" src={product.image} alt={product.alt}></img>
+            <div className='titleZone'>
+                <h3 className="titleOfProduct">{product.name}</h3>
+            </div>
+            
+            
+            <div className='priceZone'>
+                <h3 className="priceOfProduct">{product.price}$</h3>
+            </div>
 
-            <h3 className="titleOfProduct">{product.name}</h3>
+            <div className='stockZone'>
+                <p className="stock">Unidades disponibles: {product.stock}</p>
+            </div>
+            
 
-            <h3 className="priceOfProduct">{product.price}$</h3>
-
-            <p className="stock">Unidades disponibles: {product.stock}</p>
-
-            <Counter onAdd={handleOnAdd} stock={product.stock}/>        
+            <Counter onAdd={handleOnAdd} stock={product.stock}/>    
+            
+            <div className='viewDetailZone'>
+                <Link to={`/detail/${product.id}`}   className='viewDetail-btn'>
+                    <p>Ver detalle</p>
+                </Link>   
+            </div>
+            
 
         </li>
     )

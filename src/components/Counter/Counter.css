@@ -1,0 +1,64 @@
+.lessZone{
+    grid-area: lessZone;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.countZone{
+    grid-area: countZone;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addZone{
+    grid-area: addZone;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.addToCartZone{
+    grid-area: addToCartZone;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.add-btn{
+    background-color: #f36b24;
+    border: none;
+    height: 70%;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.takeOff-btn{
+    background-color: #f36b24;
+    border: none;
+    height: 70%;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 7px;
+}
+
+
+.addToCart{
+    border: none;
+    cursor: pointer;
+    background-color: #f36b24;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    height: 80%;
+    width: 90%;
+}
