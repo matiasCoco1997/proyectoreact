@@ -19,11 +19,12 @@ nav{
 .nav-btn{
     text-decoration: none;
     width: 23%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
     color: #f36b24;
+    text-align: center;
 }
 
 .icon-brand{

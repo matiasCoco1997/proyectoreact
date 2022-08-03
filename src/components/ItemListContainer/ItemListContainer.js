@@ -5,18 +5,24 @@ import ItemList from '../ItemList/ItemList'
 import { useParams } from 'react-router-dom'
 
 
-const ItemListContainer = ({greeting}) => {
-  
+const ItemListContainer = () => {
+
   const [products, setProducts] = useState ([])
 
-  const {categoryId} = useParams()
+  const { categoryId } = useParams()
 
   useEffect(() => {
 
     const asyncFunction = categoryId ? getProductsByCategory : getProducts
 
     asyncFunction(categoryId).then(products =>{
+
       setProducts(products)
+
+    }).catch(error => {
+
+      console.log(error)
+
     })
 
   }, [categoryId]) 
@@ -24,8 +30,9 @@ const ItemListContainer = ({greeting}) => {
     return (
 
         <div className="principal-content">
+          
+          <h2 className='titleGreeting'>{categoryId}</h2>
 
-          <h2>{greeting}</h2>
           <ItemList products={products} />
 
         </div>

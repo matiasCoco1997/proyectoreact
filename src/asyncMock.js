@@ -4,11 +4,11 @@ const products = [
         id: '1',
         name:'Perfume ekos moca',
         price: 2600,
-        category:'perfume',
-        image:'./images/perfumes/perfumeEkosMoca.jpeg',
+        category:'Perfumes',
+        image:'https://i.ibb.co/87D8qqs/perfume-Ekos-Moca.jpg',
         alt:'Perfume Ekos Moca',
         stock: 10,
-        description: 'Perfume Ekos Moca'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
 
     },
 
@@ -16,11 +16,11 @@ const products = [
         id: '2',
         name:'Perfume ekos castaña',
         price: 2600,
-        category:'perfume',
-        image:'./images/perfumes/perfumeEkosCastania.jpeg',
+        category:'Perfumes',
+        image:'https://i.ibb.co/B24tsJd/perfume-Ekos-Castania.jpg',
         alt:'Perfume Ekos Castaña',
         stock: 10,
-        description: 'Perfume Ekos Castaña'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
 
     },
 
@@ -28,11 +28,11 @@ const products = [
         id: '3',
         name:'Perfume luna rubí',
         price: 3000,
-        category:'perfume',
-        image:'./images/perfumes/perfumeLunaRubi.jpeg',
+        category:'Perfumes',
+        image:'https://i.ibb.co/FHJZ0VJ/perfume-Luna-Rubi.jpg',
         alt:'Perfume Luna Rubí',
         stock: 10,
-        description: 'Perfume Luna Rubí'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
 
     },
 
@@ -40,11 +40,11 @@ const products = [
         id: '4',
         name:'Crema de cuerpo cereza y avellana',
         price: 1680,
-        category:'crema',
-        image:'./images/cremas/cremadeCuerpoCerezaYAvellana.jpeg',
+        category:'Cremas',
+        image:'https://i.ibb.co/GHhwSpT/cremade-Cuerpo-Cereza-YAvellana.jpg',
         alt:'Crema de Cuerpo Cereza y Avellana',
         stock: 10,
-        description: 'Crema de Cuerpo Cereza y Avellana'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
 
     },
 
@@ -52,11 +52,11 @@ const products = [
         id: '5',
         name:'Crema hidratante facial faces',
         price: 1280,
-        category:'crema',
-        image:'./images/cremas/cremaHidratanteFacialFaces.jpeg',
+        category:'Cremas',
+        image:'https://i.ibb.co/k5wWSpC/crema-Hidratante-Facial-Faces.jpg',
         alt:'Crema Hidratante Facial Faces',
         stock: 10,
-        description: 'Descripción shampoo 1'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
 
     },
 
@@ -64,11 +64,11 @@ const products = [
         id: '6',
         name:'Crema corporal mora roja y jabuticaba',
         price: 860,
-        category:'crema',
-        image:'./images/cremas/cremaCorporalMoraYJabutia.jpeg',
+        category:'Cremas',
+        image:'https://i.ibb.co/ys9BXHz/crema-Corporal-Mora-YJabutia.jpg',
         alt:'Crema corporal mora roja y jabuticaba',
         stock: 10,
-        description: 'Crema corporal mora roja y jabuticaba'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
 
     },
 
@@ -76,11 +76,11 @@ const products = [
         id: '7',
         name:'Combo body cereza y avellana',
         price: 2260,
-        category:'combo',
-        image:'./images/combos/comboBodyCerezaYAvellana.jpeg',
+        category:'Combos',
+        image:'https://i.ibb.co/HCKLfZB/combo-Body-Cereza-YAvellana.jpg',
         alt:'Combo Body Cereza y Avellana',
         stock: 10,
-        description: 'Combo Body Cereza y Avellana'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
 
     },
 
@@ -88,11 +88,11 @@ const products = [
         id: '8',
         name:'Combo flor de lis',
         price: 2260,
-        category:'combo',
-        image:'./images/combos/comboBodyFlorDeLis.jpeg',
+        category:'Combos',
+        image:'https://i.ibb.co/3FGY5nb/combo-Body-Flor-De-Lis.jpg',
         alt:'Combo flor de lis',
         stock: 10,
-        description: 'Combo flor de lis'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
 
     },
 
@@ -100,15 +100,16 @@ const products = [
         id: '9',
         name:'Combo body datiles y canela',
         price: 2260,
-        category:'combo',
-        image:'./images/combos/ComboBodyDatilesYCanela.jpeg',
+        category:'Combos',
+        image:'https://i.ibb.co/rpjShMx/Combo-Body-Datiles-YCanela.jpg',
         alt:'Combo body datiles y canela',
         stock: 10,
-        description: 'Combo body datiles y canela'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
 
     }
 
 ]
+
 
 export const getProducts = () => {
 
@@ -125,7 +126,7 @@ export const getProducts = () => {
 export const getProductsByCategory = (category) => {
 
     return new Promise ((resolve) => {
-        
+
         setTimeout(()=> {
             resolve(products.filter(prod => prod.category === category))
         }, 500)

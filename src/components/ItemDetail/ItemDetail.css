@@ -1,0 +1,258 @@
+.detailItem{
+    height: auto;
+    display: grid;
+    grid-template-areas:    "nameDetail nameDetail nameDetail nameDetail nameDetail nameDetail"
+
+                            "imgDetail imgDetail imgDetail categoryDetail categoryDetail categoryDetail"
+
+                            "imgDetail imgDetail imgDetail stockDetail stockDetail stockDetail"
+
+                            "imgDetail imgDetail imgDetail priceDetail priceDetail priceDetail"
+
+                            "imgDetail imgDetail imgDetail lessZoneDetail countZoneDetail addZoneDetail"
+                            
+                            "descriptionDetail descriptionDetail descriptionDetail addToCartZone addToCartZone addToCartZone";
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr 1fr;
+    grid-template-rows: 10% 15% 15% 25% 10% 15%;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    padding: 50px;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+.nameZoneDetail{
+    grid-area: nameDetail;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f36b24;
+    margin: auto;
+    width: 100%;
+    height: 90%;
+    border-radius: 30px;
+}
+
+.nameOfProductDetail{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.categoryZoneDetail{
+    grid-area: categoryDetail;
+    display: flex;
+    align-items: center;
+}
+
+.categoryOfProductDetail{
+    width: 100%;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+.imgZoneDetail{
+    grid-area: imgDetail;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgZoneDetail img{
+    width: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+.stockZoneDetail{
+    grid-area: stockDetail;
+    display: flex;
+    align-items: center;
+}
+
+.stockOfProductDetail{
+    width: 100%;
+    padding-left: 30px;
+}
+
+
+
+
+
+.priceZoneDetail{
+    grid-area: priceDetail;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.priceOfProductDetail{
+    width: 100%;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+.descriptionZoneDetail{
+    grid-area: descriptionDetail;
+}
+
+.descriptionOfProductDetail{
+    height: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.addButtonZoneDetail{
+    grid-area: addZoneDetail;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.buttonAddProductDetail{
+    background-color: #f36b24;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonAddProductDetail img{
+    height: 60%;
+}
+
+
+
+
+
+.lessButtonZoneDetail{
+    grid-area: lessZoneDetail;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buttonTakeOffDetail{
+    background-color: #f36b24;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonTakeOffDetail img{
+    height: 60%;
+}
+
+
+
+
+
+
+.countZoneDetail{
+    grid-area: countZoneDetail;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countDetail{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.addToCartZoneDetail{
+    grid-area: addToCartZone;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonAddToCartDetail{
+    background-color: #f36b24;
+    width: 70%;
+    border: none;
+    border-radius: 30px;
+    height: 60%;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

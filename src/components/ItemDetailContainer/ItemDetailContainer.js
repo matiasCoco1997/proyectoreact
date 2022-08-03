@@ -8,24 +8,27 @@ const ItemDetailContainer = () => {
 
     const [product, setProduct] = useState()
 
-    const {productId} = useParams()
+    const { productId } = useParams()
 
     useEffect( () => {
         
-
         getProductById(productId)
-            .then (product => {
+
+            .then (product => { 
                 setProduct(product)
             })
-            .catch (error => {
+
+            .catch (error => { 
                 console.log(error)
             })
-    }, [productId])
 
+    })
+
+ 
     return (
-        <div className='prueba'>
-            <h1 className='prueba2'>Detalle</h1>
-            <ItemDetail {...product} />
+        
+        <div className='itemDetailContainer'>
+            <ItemDetail  {...product}/>
         </div>
     )
 }

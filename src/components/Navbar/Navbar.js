@@ -7,15 +7,15 @@ const Navbar = () => {
     return (
 
         <nav>
-            {/* <Link className="icon-brand"> */}
-                <img className="icon-brand" src="./images/brand.png" alt="Logo Natura"/>
-            {/* </Link> */}
+            <Link to='/' className="icon-brand">
+                <img className="icon-brand" src="https://i.ibb.co/vJkmmDS/brand.png" alt="Logo Natura"/>
+            </Link>
             
 
             <div className="container-btns">
-                <Link to='/category/perfume' className="nav-btn">Perfumes</Link>
-                <Link to='/category/crema' className="nav-btn">Cremas</Link>
-                <Link to='/category/combo' className="nav-btn">Combos</Link>
+                <Link to='/category/Perfumes' className="nav-btn">Perfumes</Link>
+                <Link to='/category/Cremas' className="nav-btn">Cremas</Link>
+                <Link to='/category/Combos' className="nav-btn">Combos</Link>
                 <Cartwidget></Cartwidget>
             </div>
 

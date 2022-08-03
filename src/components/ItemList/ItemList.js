@@ -1,7 +1,8 @@
 import Item from '../Item/Item'
 import './ItemList.css'
-const ItemList = ({products}) => {
 
+const ItemList = ({products}) => {
+    
     return (
         <ul className="listOfProducts">
 
