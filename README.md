@@ -2,7 +2,7 @@
 
 1- Instalar Node.js [https://nodejs.org/es/]
 
-2- Abrir el editor de texto y posicionarse sobre la en la cual se creará el directorio con el proyecto de React.
+2- Abrir el editor de texto y posicionarse sobre la carpeta en la cual se creará el directorio con el proyecto de React.
 
 3- Ingresar npx create-react-app "nombreDelProyecto".
 
