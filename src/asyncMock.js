@@ -8,7 +8,7 @@ const products = [
         image:'https://i.ibb.co/87D8qqs/perfume-Ekos-Moca.jpg',
         alt:'Perfume Ekos Moca',
         stock: 10,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor si '
 
     },
 
@@ -20,7 +20,7 @@ const products = [
         image:'https://i.ibb.co/B24tsJd/perfume-Ekos-Castania.jpg',
         alt:'Perfume Ekos Castaña',
         stock: 10,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor si '
 
     },
 
@@ -32,7 +32,7 @@ const products = [
         image:'https://i.ibb.co/FHJZ0VJ/perfume-Luna-Rubi.jpg',
         alt:'Perfume Luna Rubí',
         stock: 10,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor si '
 
     },
 
@@ -44,7 +44,7 @@ const products = [
         image:'https://i.ibb.co/GHhwSpT/cremade-Cuerpo-Cereza-YAvellana.jpg',
         alt:'Crema de Cuerpo Cereza y Avellana',
         stock: 10,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor si '
 
     },
 
@@ -56,7 +56,7 @@ const products = [
         image:'https://i.ibb.co/k5wWSpC/crema-Hidratante-Facial-Faces.jpg',
         alt:'Crema Hidratante Facial Faces',
         stock: 10,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor si '
 
     },
 
@@ -68,7 +68,7 @@ const products = [
         image:'https://i.ibb.co/ys9BXHz/crema-Corporal-Mora-YJabutia.jpg',
         alt:'Crema corporal mora roja y jabuticaba',
         stock: 10,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor si '
 
     },
 
@@ -80,7 +80,7 @@ const products = [
         image:'https://i.ibb.co/HCKLfZB/combo-Body-Cereza-YAvellana.jpg',
         alt:'Combo Body Cereza y Avellana',
         stock: 10,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor si '
 
     },
 
@@ -92,7 +92,7 @@ const products = [
         image:'https://i.ibb.co/3FGY5nb/combo-Body-Flor-De-Lis.jpg',
         alt:'Combo flor de lis',
         stock: 10,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor si '
 
     },
 
@@ -104,7 +104,7 @@ const products = [
         image:'https://i.ibb.co/rpjShMx/Combo-Body-Datiles-YCanela.jpg',
         alt:'Combo body datiles y canela',
         stock: 10,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dignissimos veniam saepe aut iste quas explicabo dolores unde aliquam assumenda consectetur, nisi inventore recusandae perspiciatis maiores voluptatum nulla similique minus.Lorem ipsum dolor si '
 
     }
 

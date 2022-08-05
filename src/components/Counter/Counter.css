@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: right;
+    background-color: white;
 }
 
 .countZone{
@@ -10,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 
 .addZone{
@@ -17,6 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: left;
+    background-color: white;
 }
 
 .addToCartZone{
@@ -24,6 +27,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .count{
