@@ -1,17 +1,17 @@
-import Counter from '../Counter/Counter'
 import './Item.css'
 import { Link } from 'react-router-dom'
 
 
+
 const   Item = ({product}) => {
 
-    const handleOnAdd = (quantity) =>{
-         console.log('La cantidad agregada es:'+ quantity)
+    const handleOnClick = (e) =>{
+        e.stopPropagation()
     }
 
     return (
 
-        <li className="itemContainer" key= {product.id}>
+        <li className="itemContainer" key= {product.id} onClick={handleOnClick}>
             
             <div className='imgZone'>
                 <img className="imgProduct" src={product.image} alt={product.alt}/>
@@ -30,7 +30,7 @@ const   Item = ({product}) => {
                 <p className="stock">Unidades disponibles: {product.stock}</p>
             </div>
             
-            <Counter 
+            {/* <Counter 
             onAdd={handleOnAdd} stock={product.stock} 
             lessZone='lessZone' 
             takeOffBtn='takeOff-btn' 
@@ -39,7 +39,7 @@ const   Item = ({product}) => {
             addZone='addZone' 
             addBtn='add-btn' 
             addToCartZone='addToCartZone' 
-            addToCart='addToCart'/> 
+            addToCart='addToCart'/>  */}
             
             <div className='viewDetailZone'>
                 <Link to={`/detail/${product.id}`}   className='viewDetail-btn'>

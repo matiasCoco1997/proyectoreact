@@ -1,8 +1,13 @@
-// import { useState} from 'react'
+import { useContext} from 'react'
+import CartContext from '../../context/CartContext'
 
 import './Cartwidget.css'
 
 const Cartwidget = () => {
+
+    const {getQuantity} = useContext(CartContext)
+
+    const quantity = getQuantity()
 
     return (
 
@@ -11,12 +16,12 @@ const Cartwidget = () => {
             <img className="cart-nav" src="https://i.ibb.co/fYHTNH4/cart.png" alt="CartWidget"/>
 
             <div className="circle">
-                <p className="countProductsCart">10</p>
+                <p className="countProductsCart">{quantity}</p>
             </div>
             
         </div>
         
     )
-}
+} 
 
 export default Cartwidget

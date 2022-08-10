@@ -1,32 +1,34 @@
-import './Counter.css'
+import './ItemCount.css'
 import {useState, useEffect} from 'react'
-const Counter = ({stock, onAdd, lessZone, takeOffBtn, countZone, countItems, addZone, addBtn, addToCartZone, addToCart})=>{
+
+const ItemCount = ({stock=0, initial=1, onAdd, lessZone, takeOffBtn, countZone, countItems, addZone, addBtn, addToCartZone, addToCart})=>{
     
-    const [count, setCount] = useState(1);
+    const [quantity, setQuantity] = useState(initial);
 
     useEffect(() => {
 
         return () => console.log('Render contador')
-    }, [count])
+    }, [quantity])
 
     const increment = () => {
 
-        if(count < stock){
-            setCount(count + 1);
+        if(quantity < stock){
+            setQuantity(quantity + 1);
         }
     }
 
     const decrement = () => {
 
-        if(count > 1 ){
-            setCount(count - 1);
+        if(quantity > 1 ){
+            setQuantity(quantity - 1);
         }
 
     }
+
+
     return (
 
         <>
-
             <div className={lessZone}>
                 <button onClick ={decrement} className={takeOffBtn}>
                     <img src='https://i.ibb.co/G238RkC/less.png' alt='takeOffArrow'/>
@@ -34,7 +36,7 @@ const Counter = ({stock, onAdd, lessZone, takeOffBtn, countZone, countItems, add
             </div>
 
             <div className={countZone}>
-                <h3 className={countItems}>{count}</h3>
+                <h3 className={countItems}>{quantity}</h3>
             </div>
 
             <div className={addZone}>
@@ -44,7 +46,7 @@ const Counter = ({stock, onAdd, lessZone, takeOffBtn, countZone, countItems, add
             </div>
 
             <div className={addToCartZone}>
-                <button onClick = {() => onAdd (count)} className={addToCart}>Agregar al carrito</button>
+                <button onClick = {() => onAdd(quantity)} className={addToCart}>Agregar al carrito</button>
             </div>
 
         </>
@@ -52,7 +54,7 @@ const Counter = ({stock, onAdd, lessZone, takeOffBtn, countZone, countItems, add
 
 }
 
-export default Counter
+export default ItemCount
 
 
 

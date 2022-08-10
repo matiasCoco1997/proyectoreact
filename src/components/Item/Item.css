@@ -4,8 +4,8 @@
                             "title title title title title title"
                             "price price price price price price"
                             "stock stock stock stock stock stock"
-                            "lessZone lessZone countZone countZone addZone addZone"
-                            "viewDetail viewDetail viewDetail addToCartZone addToCartZone addToCartZone";
+                            "viewDetail viewDetail viewDetail viewDetail viewDetail viewDetail"
+                            "viewDetail viewDetail viewDetail viewDetail viewDetail viewDetail";
 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 60% 8% 5% 5% 10% 12%;
@@ -92,7 +92,7 @@ button img{
     cursor: pointer;
     background-color: #f36b24;
     border-radius: 10px;
-    height: 80%;
+    height: 50%;
     width: 90%;
     display: flex;
     align-items: center;
