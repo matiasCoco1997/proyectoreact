@@ -1,69 +1,77 @@
-.lessZone{
-    grid-area: lessZone;
+.lessButtonZoneDetail{
+    grid-area: lessZoneDetail;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: right;
-    background-color: white;
 }
 
-.countZone{
-    grid-area: countZone;
+.buttonTakeOffDetail{
+    background-color: #f36b24;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    cursor: pointer;
 }
 
-.addZone{
-    grid-area: addZone;
+.buttonTakeOffDetail img{
+    height: 60%;
+}
+
+.countZoneDetail{
+    grid-area: countZoneDetail;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countDetail{
+    font-size: 30px;
+}
+
+
+.addButtonZoneDetail{
+    grid-area: addZoneDetail;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.buttonAddProductDetail{
+    background-color: #f36b24;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
     display: flex;
     align-items: center;
-    justify-content: left;
-    background-color: white;
+    justify-content: center;
+    cursor: pointer;
 }
 
-.addToCartZone{
+.buttonAddProductDetail img{
+    height: 60%;
+}
+
+.addToCartZoneDetail{
     grid-area: addToCartZone;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: white;
-    border-radius: 5px;
+    align-items: center;  
 }
 
-.count{
-    color: black;
+.buttonAddToCartDetail{
+    background-color: #f36b24;
+    width: 60%;
+    border: none;
+    border-radius: 30px;
+    height: 70%;
+    font-size: 25px;
     font-weight: bold;
-    text-align: center;
-}
-
-.add-btn{
-    background-color: #f36b24;
-    border: none;
-    height: 70%;
-    border-radius: 2px;
-    cursor: pointer;
-    padding: 7px;
-}
-
-.takeOff-btn{
-    background-color: #f36b24;
-    border: none;
-    height: 70%;
-    border-radius: 2px;
-    cursor: pointer;
-    padding: 7px;
-}
-
-
-.addToCart{
-    border: none;
-    cursor: pointer;
-    background-color: #f36b24;
-    border-radius: 10px;
-    font-size: 16px;
     color: white;
-    font-weight: bold;
-    height: 80%;
-    width: 90%;
+    cursor: pointer;
 }

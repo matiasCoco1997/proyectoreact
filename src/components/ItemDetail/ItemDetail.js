@@ -7,13 +7,13 @@ import ItemCount from '../ItemCount/ItemCount'
 
 const ItemDetail = ( {id, name, price, category, image, alt, stock, description}) => {
 
-    const [quantity, setQuantity] = useState(0)
+    const [quantityToAdd, setQuantityToAdd] = useState(0)
 
     const { addItem, getProductQuantity } = useContext(CartContext)
 
     const handleOnAdd = (quantity) =>{
        
-        setQuantity(quantity)
+        setQuantityToAdd(quantity)
 
         const productToAdd = {
 
@@ -25,6 +25,7 @@ const ItemDetail = ( {id, name, price, category, image, alt, stock, description}
    }
 
    const productQuantity = getProductQuantity(id)
+   
 
     return (
        <div className="detailItem">
@@ -54,22 +55,13 @@ const ItemDetail = ( {id, name, price, category, image, alt, stock, description}
             </div>  
 
             {
-                quantity === 0 ? (
-                    <ItemCount 
-                    onAdd={handleOnAdd} stock={stock} initial={productQuantity}
-                    lessZone='lessButtonZoneDetail' 
-                    takeOffBtn='buttonTakeOffDetail' 
-                    countZone='countZoneDetail' 
-                    countItems='countDetail' 
-                    addZone='addButtonZoneDetail' 
-                    addBtn='buttonAddProductDetail' 
-                    addToCartZone='addToCartZoneDetail' 
-                    addToCart='buttonAddToCartDetail'/>
-                ) : 
+                quantityToAdd === 0 ? 
                 
-                (
-                    <Link to='/cart' className='confirmButton'>Finalizar compra</Link>
-                )
+                (<ItemCount onAdd={handleOnAdd} stock={stock} initial={productQuantity}/>)
+
+                : 
+
+                (<Link to='/cart' className='confirmButton'>Finalizar compra</Link>)
             }
             
               

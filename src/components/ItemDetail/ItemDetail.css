@@ -10,7 +10,7 @@
 
                             "imgDetail imgDetail imgDetail  descriptionDetail  descriptionDetail descriptionDetail"
                             
-                            " imgDetail imgDetail imgDetail lessZoneDetail countZoneDetail addZoneDetail  "
+                            " imgDetail imgDetail imgDetail lessZoneDetail countZoneDetail addZoneDetail"
 
                             "imgDetail imgDetail imgDetail addToCartZone addToCartZone addToCartZone";
 
@@ -71,15 +71,6 @@
     height: 80%;
 }
 
-
-
-
-
-
-
-
-
-
 .stockZoneDetail{
     grid-area: stockDetail;
     display: flex;
@@ -91,10 +82,6 @@
     width: 100%;
     text-align: center;
 }
-
-
-
-
 
 .priceZoneDetail{
     grid-area: priceDetail;
@@ -109,14 +96,6 @@
     font-size: 30px;
 }
 
-
-
-
-
-
-
-
-
 .descriptionZoneDetail{
     grid-area: descriptionDetail;
     padding-right: 10px;
@@ -129,102 +108,12 @@
     height: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-.addButtonZoneDetail{
-    grid-area: addZoneDetail;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    
-}
-
-
-.buttonAddProductDetail{
-    background-color: #f36b24;
-    border: none;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.buttonAddProductDetail img{
-    height: 60%;
-}
-
-
-
-
-
-.lessButtonZoneDetail{
-    grid-area: lessZoneDetail;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.buttonTakeOffDetail{
-    background-color: #f36b24;
-    border: none;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.buttonTakeOffDetail img{
-    height: 60%;
-}
-
-
-
-
-
-
-.countZoneDetail{
-    grid-area: countZoneDetail;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.countDetail{
-    font-size: 30px;
-}
-
-
-
-
-
-
-
-
-
-
-
-.addToCartZoneDetail{
-    grid-area: addToCartZone;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.buttonAddToCartDetail{
+.confirmButton{
+    grid-area: addToCartZone ;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+    justify-self: center;
     background-color: #f36b24;
     width: 60%;
     border: none;
@@ -235,6 +124,41 @@
     color: white;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
