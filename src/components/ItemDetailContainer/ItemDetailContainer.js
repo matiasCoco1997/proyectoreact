@@ -7,24 +7,25 @@ import { useParams } from 'react-router-dom'
 const ItemDetailContainer = () => {
 
     const [product, setProduct] = useState()
+    const [loading, setLoading] = useState(true)
 
     const { productId } = useParams()
 
     useEffect( () => {
         
-        getProductById(productId)
-
-            .then (product => { 
+        getProductById(productId).then (product => { 
                 setProduct(product)
+            }).finally(() => {
+
+                setLoading(false)
             })
+    }, [productId])
 
-            .catch (error => { 
-                console.log(error)
-            })
+    
+    if(loading){
+        return <h1>Cargando...</h1>
+    }
 
-    })
-
- 
     return (
         
         <div className='itemDetailContainer'>
