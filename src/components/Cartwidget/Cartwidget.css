@@ -5,6 +5,9 @@
     position: relative;
     margin-left: 20px;
     margin-right: 40px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
 }
 
 .cart-nav{

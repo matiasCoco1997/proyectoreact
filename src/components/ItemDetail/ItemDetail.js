@@ -17,7 +17,7 @@ const ItemDetail = ( {id, name, price, category, image, alt, stock, description}
 
         const productToAdd = {
 
-            id, name, price, quantity
+            id, name, price, quantity, image, alt
         }
         
         addItem(productToAdd)

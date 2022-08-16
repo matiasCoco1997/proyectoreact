@@ -30,17 +30,6 @@ const   Item = ({product}) => {
                 <p className="stock">Unidades disponibles: {product.stock}</p>
             </div>
             
-            {/* <Counter 
-            onAdd={handleOnAdd} stock={product.stock} 
-            lessZone='lessZone' 
-            takeOffBtn='takeOff-btn' 
-            countZone='countZone' 
-            countItems='count' 
-            addZone='addZone' 
-            addBtn='add-btn' 
-            addToCartZone='addToCartZone' 
-            addToCart='addToCart'/>  */}
-            
             <div className='viewDetailZone'>
                 <Link to={`/detail/${product.id}`}   className='viewDetail-btn'>
                     <p>Ver detalle</p>
