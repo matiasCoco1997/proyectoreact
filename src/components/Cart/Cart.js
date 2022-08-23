@@ -83,7 +83,23 @@ const Cart = ()=>{
                     </h2>
                 </div>
 
-                {productsInCart > 0 ? <button className='clearCartBtn' onClick={() => clearCart()}>Vaciar Carrito</button> : <></>}
+                {productsInCart > 0 ? 
+                
+                    <div className='btnsContainerFinishBuy'>
+                        <button className='clearCartBtn' onClick={() => clearCart()}>Vaciar Carrito</button>
+
+                        <Link to='/checkout' className='checkoutBtn'>Checkout</Link>
+
+                    </div> 
+                
+                : <></>}
+                
+                {/* <div className='btnsContainerFinishBuy'>
+                    <button className='clearCartBtn' onClick={() => clearCart()}>Vaciar Carrito</button>
+
+                    <Link to='/checkout' className='checkoutBtn'>Checkout</Link>
+                </div> */}
+
                 
 
             </div>
