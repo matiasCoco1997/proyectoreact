@@ -92,15 +92,7 @@ const Cart = ()=>{
 
                     </div> 
                 
-                : <></>}
-                
-                {/* <div className='btnsContainerFinishBuy'>
-                    <button className='clearCartBtn' onClick={() => clearCart()}>Vaciar Carrito</button>
-
-                    <Link to='/checkout' className='checkoutBtn'>Checkout</Link>
-                </div> */}
-
-                
+                : <></>}              
 
             </div>
 

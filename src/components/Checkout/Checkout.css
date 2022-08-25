@@ -8,12 +8,80 @@
     height: 85vh;
 }
 
+
+.finalBuyContainer{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 80vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    border: 5px solid #f36b24;
+}
+
+.confirmBuyTitle{
+    text-align: center;
+    color:#f36b24;
+    width: 100%;
+    padding: 30px;
+}
+
+.containerInfoOrder{
+    height: 80%;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.buyInfo{
+    width: 100%;
+    padding: 20px;
+    color:#f36b24;
+    border: 2px solid #f36b24;
+    border-radius: 10px;
+
+}
+
+.inputDataOrder{
+    outline: none;
+}
+
+.returnToHomeBtn{
+    width: 100%;
+    background-color: #f36b24;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
 .checkoutTitle{
+    margin: auto;
     width: 60%;
     padding: 30px;
     text-align: center;
     color:#f36b24;
 }
+
+
+
 
 .formOrder{
     width: 100%;
