@@ -1,11 +1,13 @@
+import './App.css';
+import Cart from './components/Cart/Cart'
 import Navbar from './components/Navbar/Navbar'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
-import { BrowserRouter, Routes, Route} from 'react-router-dom'
-import './App.css';
-import { CartContextProvider } from './context/CartContext'
-import Cart from './components/Cart/Cart'
 import Checkout from './components/Checkout/Checkout'
+
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import { CartContextProvider } from './context/CartContext'
+
 
 function App() {
 

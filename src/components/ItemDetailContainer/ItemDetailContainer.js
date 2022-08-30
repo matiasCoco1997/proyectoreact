@@ -34,7 +34,7 @@ const ItemDetailContainer = () => {
 
     
     if(loadingProduct){
-        return <h1>Cargando...</h1>
+        return <h1 className='titleGreeting' >Cargando producto...</h1>
     }
 
     return (

@@ -13,14 +13,23 @@ const ItemDetail = ( {id, name, price, category, image, alt, stock, description}
 
     const handleOnAdd = (quantity) =>{
        
-        setQuantityToAdd(quantity)
+        if(quantity > stock){
 
-        const productToAdd = {
+            alert('No es posible agregar la cantidad de productos deseados al carrito.')
+        }
 
-            id, name, price, quantity, image, alt
+        else{
+
+            setQuantityToAdd(quantity)
+
+            const productToAdd = {
+    
+                id, name, price, quantity, image, alt
+            }
+            
+            addItem(productToAdd)
         }
         
-        addItem(productToAdd)
 
    }
 

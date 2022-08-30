@@ -168,7 +168,7 @@ const Checkout = () => {
     
                     <h2 className='buyInfo'>Total a pagar: {dataOrder.totalToPay}$</h2>
     
-                    <Link to='/'   className='returnToHomeBtn'>Volver a comprar</Link>
+                    <Link to='/'   className='returnToHomeBtn'>Volver al inicio</Link>
     
                 </div>
     
