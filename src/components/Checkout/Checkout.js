@@ -114,10 +114,7 @@ const Checkout = () => {
                         ...dataOrder,
                         totalToPay:order.totalToPay,
                         idOrder:orderAdded.id
-                    })
-    
-                    console.log(`Order id: ${orderAdded.id}`)
-                                    
+                    })                                 
         
                 }
                 
